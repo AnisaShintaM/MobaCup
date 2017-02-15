@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "142166250952",
+    "firebase_url": "https://mobacup-6aff6.firebaseio.com",
+    "project_id": "mobacup-6aff6",
+    "storage_bucket": "mobacup-6aff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142166250952:android:c77ca69cd8202cf2",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142166250952-vf4rqdv8sfsunf7j1vitr91sta7rv73t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup",
+            "certificate_hash": "D3CB81E6D95E622609D94735558A6EAD75024959"
+          }
+        },
+        {
+          "client_id": "142166250952-1st04ioae8gkdsv6qapk9983v9pkihss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg2wDQQvgdTMnu8Zh8mUVcwHAwKupSPK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142166250952-1st04ioae8gkdsv6qapk9983v9pkihss.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
