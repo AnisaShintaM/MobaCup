@@ -17,12 +17,12 @@ import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.R;
  * Created by riani on 18/02/2017.
  */
 
-public class TeamAdapter extends BaseAdapter {
+public class ScheduleAdapter extends BaseAdapter {
     private LayoutInflater layoutinflater;
     private List<ItemObject> listStorage;
     private Context context;
 
-    public TeamAdapter(Context context, List<ItemObject> customizedListView) {
+    public ScheduleAdapter(Context context, List<ItemObject> customizedListView) {
         this.context = context;
         layoutinflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         listStorage = customizedListView;
@@ -49,22 +49,24 @@ public class TeamAdapter extends BaseAdapter {
         ViewHolder listViewHolder;
         if (convertView == null) {
             listViewHolder = new ViewHolder();
-            convertView = layoutinflater.inflate(R.layout.team_list, parent, false);
+            convertView = layoutinflater.inflate(R.layout.schedule_list, parent, false);
             listViewHolder.logoTeam = (ImageView) convertView.findViewById(R.id.gambar);
-            listViewHolder.nameTeam = (TextView) convertView.findViewById(R.id.namaTeam);
-
+            listViewHolder.teamName = (TextView) convertView.findViewById(R.id.namaTeam);
+            listViewHolder.tempat = (TextView) convertView.findViewById(R.id.tempat);
             convertView.setTag(listViewHolder);
         } else {
             listViewHolder = (ViewHolder) convertView.getTag();
         }
         listViewHolder.logoTeam.setImageResource(listStorage.get(position).getGambar());
-        listViewHolder.nameTeam.setText(listStorage.get(position).getJudul());
-
+        listViewHolder.teamName.setText(listStorage.get(position).getJudul());
+        listViewHolder.tempat.setText(listStorage.get(position).getDeskripsi());
         return convertView;
     }
 
     static class ViewHolder {
         ImageView logoTeam;
-        TextView nameTeam;
+        TextView teamName;
+        TextView tempat;
     }
+
 }

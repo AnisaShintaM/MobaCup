@@ -14,6 +14,7 @@ import android.view.MenuItem;
 import java.util.Locale;
 
 import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.Fragments.News;
+import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.Fragments.Schedule;
 import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.Fragments.Team;
 
 public class MainActivity extends AppCompatActivity implements ActionBar.TabListener {
@@ -117,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
                     fragment = new Team();
                     break;
                 case 2:
-                    fragment = new News();
+                    fragment = new Schedule();
             }
             return fragment;
         }
