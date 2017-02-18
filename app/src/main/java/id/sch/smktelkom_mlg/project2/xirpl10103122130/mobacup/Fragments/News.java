@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup;
+package id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.Fragments;
 
 
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.ItemObject;
+import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.R;
 
 /**
  * A simple {@link Fragment} subclass.

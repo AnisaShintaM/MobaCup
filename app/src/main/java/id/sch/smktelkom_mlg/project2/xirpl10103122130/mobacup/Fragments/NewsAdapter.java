@@ -1,4 +1,4 @@
-package id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup;
+package id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.Fragments;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
+
+import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.ItemObject;
+import id.sch.smktelkom_mlg.project2.xirpl10103122130.mobacup.R;
 
 /**
  * Created by riani on 18/02/2017.
